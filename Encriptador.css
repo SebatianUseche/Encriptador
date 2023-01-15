@@ -1,0 +1,174 @@
+body{
+    background: #244a6d;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.logo img{
+    width: 10em;
+}
+a h2{
+    font-size: 40px;
+    color: white;
+}
+h2:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
+nav{
+    margin-right: 2em;
+    font-size: 35px;
+    color: white;
+}
+.oracle{
+    text-decoration: none;
+}
+.Titulo{
+    width: 940px;
+    margin: 0 auto;
+    padding: 25px;
+}
+.Cuerpo{
+    width: 940px;
+    margin: 0 auto;
+}
+.Titulosdetextos{
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 2.2%;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+}
+.cuadrotexto{
+    display: inline-block;
+    width: 35%;
+    margin: 0 1.5%;
+}
+.cuadrotexto2{
+    display: inline-block;
+    width: 35%;
+    margin: 0 1.5%;
+}
+.imagen{
+    width: 100%;
+    height: 450px;
+    background: #244a6d;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 2px solid #000;
+    align-items: center;
+}
+.pensando{
+    display: flex;
+    margin-top: 16%;
+    margin-left: 5%;
+    width: 90%;
+    height: 75%;
+}
+#TextoEncriptador{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background: #244a6d;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 2px solid #000;
+}
+#TextoDesencriptador{
+    width: 100%;
+    height: 450px;
+    background: #244a6d;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 2px solid #000;
+}
+.TituloBotones{
+    display: inline-block;
+    font-size: 35px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Botones{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 150px 0px;
+}
+.Advertencia{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 4% 1.5%;
+    color:  darkorange;
+}
+.boton{
+    width: 100%;
+    height: 30px;
+    margin-top: 3%;
+    border-radius: 8px;
+}
+.boton:hover, .boton2:hover{
+    background-color: darkorange;
+    transform: scale(1.05);
+}
+.boton2{
+    width: 60%;
+    height: 35px;
+    margin: 5% 20% 0 20%;
+    border-radius: 8px;
+}
+footer{
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.redes{
+    display: flex;
+    margin-left: 46%;
+    margin-right: 100px;
+    padding-top: 15px;
+    width: 50px;
+    height: 50px;
+}
+.linkeind{
+    display: flex;
+}
+.github{
+    display: flex;
+}
+.ocultar{
+  display: none;
+}
+.ver{
+    display: flex;
+}
